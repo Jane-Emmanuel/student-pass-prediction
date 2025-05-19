@@ -19,7 +19,7 @@ A simple machine learning web app built with *Streamlit* that predicts whether a
 ## 🔗 Notebook Preview
 
 View the notebook directly on GitHub:  
-[📘 View Jupyter Notebook]("https://github.com/Jane-Emmanuel/student-pass-prediction/blob/main/Jane_Emmanuel_student_pass_prediction.ipynb")
+[📘 View Jupyter Notebook] (https://github.com/Jane-Emmanuel/student-pass-prediction/blob/main/Jane_Emmanuel_student_pass_prediction.ipynb)
 
 
 ## ▶ How to Run the App
