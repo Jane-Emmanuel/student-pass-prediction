@@ -1,40 +1,51 @@
-# 🎓 Student Pass Prediction App
+# 🧠 Student Pass Prediction App
 
-This project is a simple machine learning app that predicts whether a student will pass or fail based on study hours, attendance, assignment submission, and study group participation.
+A simple machine learning web app built with *Streamlit* that predicts whether a student will pass based on study hours, attendance, assignment completion, and study group participation.
 
-##  Project Files
+## 📁 Files in this Repository
 
-1. *student_pass_prediction.ipynb*
-   - Jupyter Notebook containing the full process:
-     - Data preparation
-     - Model training (Logistic Regression)
-     - Model saving using joblib
-
-2. *student_model.pkl*
-   - Serialized (saved) model file created from the trained model in the notebook.
-   - This file is used by the Streamlit app to make predictions.
-
-3. *app.py*
-   - A simple Streamlit app that:
-     - Loads the saved model
-     - Accepts user input (study hours, attendance, etc.)
-     - Predicts and displays whether the student will *Pass* or *Fail*
-
-## How to Run the App
-
-1. Make sure you have Python and Streamlit installed.
-2. Open your terminal or command prompt.
-3. Navigate to the folder containing app.py and student_model.pkl.
-4. Run the following command:
-
-bash
-streamlit run app.py
+| File | Description |
+|------|-------------|
+| student_pass_prediction.ipynb | The Jupyter Notebook where the model was trained and exported using joblib |
+| student_model.pkl | The trained logistic regression model saved as a pickle file |
+| app.py | The Streamlit web app script that loads the model and runs predictions |
 
 
-## Requirements
+## 📸 Screenshot
 
-Install the required packages if you don't have them yet:
+![App Screenshot](https://github.com/Jane-Emmanuel/student-pass-prediction/blob/main/student_pass_prediction_screenshot.PNG)
 
-bash
-pip install streamlit scikit-learn pandas joblib
 
+## 🔗 Notebook Preview
+
+View the notebook directly on GitHub:  
+[📘 View Jupyter Notebook](https://github.com/Jane_Emmanuel_student_pass_prediction.ipynb)
+
+
+## ▶ How to Run the App
+
+1. Make sure you have Python and Streamlit installed:
+   bash
+   pip install streamlit joblib scikit-learn
+`
+
+2. Run the app:
+
+   bash
+   streamlit run app.py
+   
+
+## 💡 Features
+
+* Predicts student pass/fail status in real time
+* Uses logistic regression trained on custom data
+* Simple user interface with input widgets
+
+## ✅ Future Improvements
+
+* Add more features like exam score, previous grades
+* Deploy the app to Streamlit Cloud or HuggingFace
+
+## 📬 Author
+
+Jane Emmanuel – [@LinkedIn](https://www.linkedin.com/in/jane-emmanuel-/)
