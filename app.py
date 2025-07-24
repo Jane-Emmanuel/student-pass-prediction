@@ -3,10 +3,12 @@ import numpy as np
 import joblib
 from sklearn.linear_model import LogisticRegression
 
-# model for demonstration
+# Write the requirements.txt file
+with open("requirements.txt", "w") as f:
+    f.write("streamlit\nnumpy\nscikit-learn\njoblib")
 
+# Load your model
 model = joblib.load("student_model.pkl")
-
 
 st.title("Student Pass Prediction")
 
@@ -22,4 +24,4 @@ if st.button("Predict"):
     if prediction == 1:
         st.success("Prediction: Pass")
     else:
-        st.success("Prediction: Fail")
+        st.success("Prediction: Fail")
