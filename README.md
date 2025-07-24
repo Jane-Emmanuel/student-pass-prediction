@@ -22,7 +22,7 @@ View the notebook directly on GitHub:
 [📘 View Jupyter Notebook](https://github.com/Jane-Emmanuel/student-pass-prediction/blob/main/Jane_Emmanuel_student_pass_prediction.ipynb)
 
 
-## How to Run the App
+## How to Run the App( re-edited to *view the app*)
 
 1. Make sure you have Python and Streamlit installed:
    bash
