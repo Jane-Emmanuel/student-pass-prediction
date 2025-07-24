@@ -29,10 +29,9 @@ View the notebook directly on GitHub:
    pip install streamlit joblib scikit-learn
 `
 
-2. Run the app:
+2. view the app:
 
-   bash
-   streamlit run app.py
+[View App](https://student-pass-prediction-c7qmxbng5ee6zk8jtftwmv.streamlit.app/)
    
 
 ## Features
